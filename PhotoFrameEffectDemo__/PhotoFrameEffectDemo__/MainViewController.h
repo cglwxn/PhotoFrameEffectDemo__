@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  PhotoFrameEffectDemo__
 //
 //  Created by Guanglei Cheng on 2019/10/29.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoFrameTableView.h"
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 
 @end

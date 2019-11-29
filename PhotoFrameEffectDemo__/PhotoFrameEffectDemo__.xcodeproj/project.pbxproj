@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2107A02B238E757400132101 /* BASENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2107A02A238E757400132101 /* BASENavigationController.m */; };
 		214BAF9B23686B5900ECCDB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 214BAF9A23686B5900ECCDB1 /* AppDelegate.m */; };
-		214BAFA123686B5900ECCDB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214BAFA023686B5900ECCDB1 /* ViewController.m */; };
+		214BAFA123686B5900ECCDB1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214BAFA023686B5900ECCDB1 /* MainViewController.m */; };
 		214BAFA423686B5900ECCDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214BAFA223686B5900ECCDB1 /* Main.storyboard */; };
 		214BAFA623686B5E00ECCDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214BAFA523686B5E00ECCDB1 /* Assets.xcassets */; };
 		214BAFA923686B5E00ECCDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214BAFA723686B5E00ECCDB1 /* LaunchScreen.storyboard */; };
@@ -29,7 +30,14 @@
 		214BB08B23686E8600ECCDB1 /* PhotoFrameTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214BB08A23686E8600ECCDB1 /* PhotoFrameTableView.m */; };
 		214BB08E23686EA000ECCDB1 /* PhotoFrameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 214BB08D23686EA000ECCDB1 /* PhotoFrameCell.m */; };
 		214BB090236878B000ECCDB1 /* Photos in Resources */ = {isa = PBXBuildFile; fileRef = 214BB08F236878B000ECCDB1 /* Photos */; };
+		214D03DF238D892600C47B92 /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214D03DE238D892600C47B92 /* PhotoDetailViewController.m */; };
+		214D03E2238D8A4A00C47B92 /* ViewControllerInteractiveTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 214D03E1238D8A4A00C47B92 /* ViewControllerInteractiveTransitioningDelegate.m */; };
+		214D03E5238D8A6500C47B92 /* ViewControllerAnimatedTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 214D03E4238D8A6500C47B92 /* ViewControllerAnimatedTransitioningDelegate.m */; };
 		21530AE623692DD300D2F309 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21530AE423692DD300D2F309 /* SceneDelegate.m */; };
+		216E998A239001DF0089AC45 /* MainPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 216E9989239001DF0089AC45 /* MainPhotoListCell.m */; };
+		21F6FE9523901F3D00F580B9 /* PhotoFrmeBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F6FE9423901F3D00F580B9 /* PhotoFrmeBackView.m */; };
+		21F6FEA62390446E00F580B9 /* MainPhotoFrameCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F6FEA52390446E00F580B9 /* MainPhotoFrameCollectionView.m */; };
+		21F6FEA923905DD000F580B9 /* PhotoFrameButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F6FEA823905DD000F580B9 /* PhotoFrameButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2107A029238E757400132101 /* BASENavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BASENavigationController.h; sourceTree = "<group>"; };
+		2107A02A238E757400132101 /* BASENavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BASENavigationController.m; sourceTree = "<group>"; };
 		214BAF9623686B5900ECCDB1 /* PhotoFrameEffectDemo__.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFrameEffectDemo__.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		214BAF9923686B5900ECCDB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		214BAF9A23686B5900ECCDB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		214BAF9F23686B5900ECCDB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		214BAFA023686B5900ECCDB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		214BAF9F23686B5900ECCDB1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		214BAFA023686B5900ECCDB1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		214BAFA323686B5900ECCDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		214BAFA523686B5E00ECCDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		214BAFA823686B5E00ECCDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +108,24 @@
 		214BB08C23686EA000ECCDB1 /* PhotoFrameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFrameCell.h; sourceTree = "<group>"; };
 		214BB08D23686EA000ECCDB1 /* PhotoFrameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFrameCell.m; sourceTree = "<group>"; };
 		214BB08F236878B000ECCDB1 /* Photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Photos; sourceTree = "<group>"; };
+		214D03DD238D892600C47B92 /* PhotoDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		214D03DE238D892600C47B92 /* PhotoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		214D03E0238D8A4A00C47B92 /* ViewControllerInteractiveTransitioningDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerInteractiveTransitioningDelegate.h; sourceTree = "<group>"; };
+		214D03E1238D8A4A00C47B92 /* ViewControllerInteractiveTransitioningDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerInteractiveTransitioningDelegate.m; sourceTree = "<group>"; };
+		214D03E3238D8A6500C47B92 /* ViewControllerAnimatedTransitioningDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerAnimatedTransitioningDelegate.h; sourceTree = "<group>"; };
+		214D03E4238D8A6500C47B92 /* ViewControllerAnimatedTransitioningDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAnimatedTransitioningDelegate.m; sourceTree = "<group>"; };
 		21530AE423692DD300D2F309 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		21530AE523692DD300D2F309 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		216E9988239001DF0089AC45 /* MainPhotoListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPhotoListCell.h; sourceTree = "<group>"; };
+		216E9989239001DF0089AC45 /* MainPhotoListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPhotoListCell.m; sourceTree = "<group>"; };
+		21F6FE8E2390053700F580B9 /* PhotoFrame.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFrame.pch; sourceTree = "<group>"; };
+		21F6FE8F2390069200F580B9 /* PhotoFrameCommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFrameCommonDefines.h; sourceTree = "<group>"; };
+		21F6FE9323901F3D00F580B9 /* PhotoFrmeBackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFrmeBackView.h; sourceTree = "<group>"; };
+		21F6FE9423901F3D00F580B9 /* PhotoFrmeBackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFrmeBackView.m; sourceTree = "<group>"; };
+		21F6FEA42390446E00F580B9 /* MainPhotoFrameCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPhotoFrameCollectionView.h; sourceTree = "<group>"; };
+		21F6FEA52390446E00F580B9 /* MainPhotoFrameCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPhotoFrameCollectionView.m; sourceTree = "<group>"; };
+		21F6FEA723905DD000F580B9 /* PhotoFrameButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFrameButton.h; sourceTree = "<group>"; };
+		21F6FEA823905DD000F580B9 /* PhotoFrameButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFrameButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,16 +180,34 @@
 				214BB04223686E2200ECCDB1 /* Masonry */,
 				214BAF9923686B5900ECCDB1 /* AppDelegate.h */,
 				214BAF9A23686B5900ECCDB1 /* AppDelegate.m */,
+				21F6FE8E2390053700F580B9 /* PhotoFrame.pch */,
+				21F6FE8F2390069200F580B9 /* PhotoFrameCommonDefines.h */,
+				2107A029238E757400132101 /* BASENavigationController.h */,
+				2107A02A238E757400132101 /* BASENavigationController.m */,
 				21530AE523692DD300D2F309 /* SceneDelegate.h */,
 				21530AE423692DD300D2F309 /* SceneDelegate.m */,
-				214BAF9F23686B5900ECCDB1 /* ViewController.h */,
-				214BAFA023686B5900ECCDB1 /* ViewController.m */,
+				214BAF9F23686B5900ECCDB1 /* MainViewController.h */,
+				214BAFA023686B5900ECCDB1 /* MainViewController.m */,
+				21F6FEA42390446E00F580B9 /* MainPhotoFrameCollectionView.h */,
+				21F6FEA52390446E00F580B9 /* MainPhotoFrameCollectionView.m */,
+				21F6FEA723905DD000F580B9 /* PhotoFrameButton.h */,
+				21F6FEA823905DD000F580B9 /* PhotoFrameButton.m */,
+				21F6FE9323901F3D00F580B9 /* PhotoFrmeBackView.h */,
+				21F6FE9423901F3D00F580B9 /* PhotoFrmeBackView.m */,
+				216E9988239001DF0089AC45 /* MainPhotoListCell.h */,
+				216E9989239001DF0089AC45 /* MainPhotoListCell.m */,
+				214D03DD238D892600C47B92 /* PhotoDetailViewController.h */,
+				214D03DE238D892600C47B92 /* PhotoDetailViewController.m */,
+				214BB08C23686EA000ECCDB1 /* PhotoFrameCell.h */,
+				214BB08D23686EA000ECCDB1 /* PhotoFrameCell.m */,
+				214D03E3238D8A6500C47B92 /* ViewControllerAnimatedTransitioningDelegate.h */,
+				214D03E4238D8A6500C47B92 /* ViewControllerAnimatedTransitioningDelegate.m */,
+				214D03E0238D8A4A00C47B92 /* ViewControllerInteractiveTransitioningDelegate.h */,
+				214D03E1238D8A4A00C47B92 /* ViewControllerInteractiveTransitioningDelegate.m */,
 				214BB08623686E6F00ECCDB1 /* PhotoFramScrollView.h */,
 				214BB08723686E6F00ECCDB1 /* PhotoFramScrollView.m */,
 				214BB08923686E8600ECCDB1 /* PhotoFrameTableView.h */,
 				214BB08A23686E8600ECCDB1 /* PhotoFrameTableView.m */,
-				214BB08C23686EA000ECCDB1 /* PhotoFrameCell.h */,
-				214BB08D23686EA000ECCDB1 /* PhotoFrameCell.m */,
 				214BAFA223686B5900ECCDB1 /* Main.storyboard */,
 				214BAFA523686B5E00ECCDB1 /* Assets.xcassets */,
 				214BAFA723686B5E00ECCDB1 /* LaunchScreen.storyboard */,
@@ -356,21 +400,29 @@
 			files = (
 				214BB08423686E2300ECCDB1 /* MASViewAttribute.m in Sources */,
 				21530AE623692DD300D2F309 /* SceneDelegate.m in Sources */,
-				214BAFA123686B5900ECCDB1 /* ViewController.m in Sources */,
+				214BAFA123686B5900ECCDB1 /* MainViewController.m in Sources */,
 				214BB08123686E2300ECCDB1 /* View+MASAdditions.m in Sources */,
+				214D03DF238D892600C47B92 /* PhotoDetailViewController.m in Sources */,
 				214BB07D23686E2300ECCDB1 /* MASCompositeConstraint.m in Sources */,
+				214D03E5238D8A6500C47B92 /* ViewControllerAnimatedTransitioningDelegate.m in Sources */,
+				216E998A239001DF0089AC45 /* MainPhotoListCell.m in Sources */,
 				214BB08823686E6F00ECCDB1 /* PhotoFramScrollView.m in Sources */,
 				214BB08023686E2300ECCDB1 /* NSArray+MASAdditions.m in Sources */,
+				21F6FEA62390446E00F580B9 /* MainPhotoFrameCollectionView.m in Sources */,
 				214BB07C23686E2300ECCDB1 /* ViewController+MASAdditions.m in Sources */,
+				214D03E2238D8A4A00C47B92 /* ViewControllerInteractiveTransitioningDelegate.m in Sources */,
 				214BB08E23686EA000ECCDB1 /* PhotoFrameCell.m in Sources */,
 				214BB07F23686E2300ECCDB1 /* MASLayoutConstraint.m in Sources */,
 				214BB08323686E2300ECCDB1 /* MASViewConstraint.m in Sources */,
+				21F6FEA923905DD000F580B9 /* PhotoFrameButton.m in Sources */,
 				214BB08223686E2300ECCDB1 /* MASConstraint.m in Sources */,
+				21F6FE9523901F3D00F580B9 /* PhotoFrmeBackView.m in Sources */,
 				214BAF9B23686B5900ECCDB1 /* AppDelegate.m in Sources */,
 				214BB07B23686E2300ECCDB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				214BAFAC23686B5E00ECCDB1 /* main.m in Sources */,
 				214BB07E23686E2300ECCDB1 /* MASConstraintMaker.m in Sources */,
 				214BB08B23686E8600ECCDB1 /* PhotoFrameTableView.m in Sources */,
+				2107A02B238E757400132101 /* BASENavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +594,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9MRNH2635;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/guangleicheng/Desktop/常用组件/PhotoFrameEffectDemo__/PhotoFrameEffectDemo__/PhotoFrameEffectDemo__/PhotoFrame.pch";
 				INFOPLIST_FILE = PhotoFrameEffectDemo__/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -562,6 +616,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9MRNH2635;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/guangleicheng/Desktop/常用组件/PhotoFrameEffectDemo__/PhotoFrameEffectDemo__/PhotoFrameEffectDemo__/PhotoFrame.pch";
 				INFOPLIST_FILE = PhotoFrameEffectDemo__/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

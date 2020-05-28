@@ -13,6 +13,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = touches.allObjects[0];
 //    NSLog(@"%s----%@",__func__,touch.view);
+    UIView *responseView = self.subViewTouchFeedback == YES? touch.view:self;
     self.backViewTouchBeganHandler(touch.view);
 }
 

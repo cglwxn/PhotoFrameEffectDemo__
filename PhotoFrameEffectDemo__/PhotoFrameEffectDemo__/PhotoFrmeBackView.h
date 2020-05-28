@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) PhotoBackViewTouchMovedHandler backViewTouchMovedHandler;
 @property (nonatomic, strong) PhotoBackViewTouchCancelleddHandler backViewTouchCancelleddHandler;
 
+/** 是否子视图响应而不是本view对点击作出反馈.默认是本view对点击作出反馈 */
+@property (nonatomic, assign) BOOL subViewTouchFeedback;
+
 @end
 
 NS_ASSUME_NONNULL_END

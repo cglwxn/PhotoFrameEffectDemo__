@@ -19,7 +19,7 @@
 static NSString *photoFrameCellID = @"PhotoFrameCell";
 static NSString *MainPhotoListCellID = @"MainPhotoListCell";
 
-@interface MainViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UINavigationControllerDelegate>
+@interface MainViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UINavigationControllerDelegate,CAAnimationDelegate>
 
 @property (nonatomic, strong) UIButton *button;
 
@@ -299,10 +299,19 @@ static NSString *MainPhotoListCellID = @"MainPhotoListCell";
     aniy.timingFunction = timey;
     aniy.fromValue = @(view.layer.presentationLayer.transform.m11);
     aniy.toValue = @(1);
+    aniy.delegate = self;
     [view.layer addAnimation:aniy forKey:@"transform.scale.y"];
     
     
     view.layer.transform = CATransform3DIdentity;
+}
+
+#pragma mark - CAAnimationDelegate
+
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
+    if (self.isFirstTouchMoved == NO) return;
+    PhotoDetailViewController *detailVC = [[PhotoDetailViewController alloc] init];
+    [self.navigationController pushViewController:detailVC animated:YES];
 }
 
 #pragma mark - UITableViewDelegate, UITableViewDataSource
